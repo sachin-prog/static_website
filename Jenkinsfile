@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/username/static-website.git'
+                git 'https://github.com/sachin-progstatic-website.git'
             }
         }
 
