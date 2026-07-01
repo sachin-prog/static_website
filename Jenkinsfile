@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/sachin-prog/static-website.git'
+                git 'https://github.com/sachin-prog/static_website.git'
             }
         }
 
