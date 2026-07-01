@@ -4,8 +4,9 @@ pipeline {
     stages {
 
         stage('Checkout') {
-            steps {
-                git 'https://github.com/sachin-prog/static_website.git'
+            steps { 
+		git branch: 'main',
+                url: 'https://github.com/sachin-prog/static_website.git'
             }
         }
 
